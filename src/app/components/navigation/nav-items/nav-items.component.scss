@@ -1,0 +1,48 @@
+.font{
+    font-size: 16px !important;
+    color: #333 !important;
+    pointer-events: auto;
+    text-decoration: none;
+}
+
+.nav-item{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.link{
+    position: relative;
+}
+  
+.link:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 1.4px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #333 !important;
+    transition: width .2s ease;
+}
+   
+.link:hover:after{
+    width: 100%;
+    left: 0;
+    background: #333 !important;
+}
+
+.block{
+    display: block;
+    margin: 20px auto;
+    width: 85px;
+   
+}
+
+.icon {
+    margin: 0px 5px 10px 0px !important;
+    width: 18px;
+    height: 18px;
+}

@@ -1,0 +1,9 @@
+<div class="navigation-bar">
+  <a class="logo logo-font float-left " href="#!">MySite.com</a>
+  <div class="right-part float-right">
+    <app-nav-items [isOpen]="isOpen" class="nav-items"></app-nav-items>
+  </div>
+  <app-hamburger (hamburgerEventEmitter)="setOpen($event)" class="hamburger float-right" [isOpen]="isOpen"></app-hamburger>
+</div>
+
+<app-sidebar *ngIf="isOpen" (modalEventEmitter)="setOpen($event)" [isOpen]="isOpen"> </app-sidebar>

@@ -1,0 +1,40 @@
+.navigation-bar{
+    display: block;
+    padding: 20px 0px 20px 0px;
+    height: 60px;
+}
+
+.hamburger{
+    display: none;
+}
+
+
+.logo{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    margin-left: 20px;
+}
+
+.responsive{
+    display: block;
+    width: 100% !important;
+}
+
+.logo-font{
+    font-size: 27px !important;
+    color: #333 !important;
+    pointer-events: auto;
+    text-decoration: none;  
+}
+
+
+@media (max-width: 830px){
+    .hamburger{
+        display: inline-block;
+    }
+
+    .nav-items{
+        display: none;
+    } 
+ }

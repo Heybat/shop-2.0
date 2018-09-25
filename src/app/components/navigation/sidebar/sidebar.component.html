@@ -1,0 +1,7 @@
+<div class="modal" (click)="closeModal($event)"></div>
+<div class="sidebar" @sideBarAppearence>
+        <a class="logo logo-font" href="#!" @sideBarItemAppearence>MySite.com</a>
+        <div @sideBarItemAppearence>
+          <app-nav-items [isDisplayBlock]='isDisplayBlock' ></app-nav-items>
+        </div>
+</div>

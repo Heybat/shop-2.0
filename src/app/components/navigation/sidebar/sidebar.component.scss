@@ -1,0 +1,40 @@
+.sidebar{
+    display: block;
+    position: fixed;
+    height: 100% !important;
+    top: 0px;
+    left: 0px;
+    background-color:white;
+    z-index: 2 !important;
+    width: 210px;
+}
+
+.modal{
+    display: block;
+    position: fixed;
+    z-index: 1 !important;
+    height: 100% !important;
+    width: 100% !important;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.logo-font{
+    font-size: 27px !important;
+    color: #333 !important;
+    pointer-events: auto;
+    text-decoration: none;  
+}
+
+.logo{
+    display: block;
+    margin: 20px !important;
+}
+
+.close-icon{
+    position: absolute;
+    top: 15px;
+    left: 175px;
+    cursor: pointer;
+}
