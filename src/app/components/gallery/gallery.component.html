@@ -1,0 +1,7 @@
+<div class="grid-container">
+    <div *ngFor="let picture of pictures; let i = index" (click)="clicked(i)">
+        <img src={{picture}} alt="picture" class="image" [ngClass]="{'large-image': i == p }">
+    </div>
+    <div class="modal" [ngClass]="{'show': isClicked, 'hidden': !isClicked}" (click)="close()"></div>
+    <img class="modal-content" src={{pictures[p]}} *ngIf="isClicked">
+</div>

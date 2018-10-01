@@ -1,0 +1,20 @@
+.collection-card .stripe.light {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.collection-card .stripe.dark {
+  background-color: black;
+  opacity: 0.6;
+}
+
+.collection-card .stripe.dark p {
+  color: white;
+}
+
+.collection-card .stripe {
+  position: absolute;
+  bottom: 3rem;
+  width: 100%;
+  text-align: center;
+  // padding: 1.2rem;
+}
