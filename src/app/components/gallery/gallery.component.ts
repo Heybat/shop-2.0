@@ -20,18 +20,30 @@ export class GalleryComponent implements OnInit {
   constructor() {}
 
   isClicked: boolean = false;
-  p: number;
+  index: number;
 
   ngOnInit() {}
 
   clicked(element) {
     console.log("clicked", element);
-    this.p = element;
+    this.index = element;
     this.isClicked = true;
     console.log(this.isClicked);
   }
 
   close() {
     this.isClicked = false;
+  }
+
+  left() {
+    if (this.index > 0) {
+      this.index--;
+    }
+  }
+
+  right() {
+    if (this.index < this.pictures.length - 1) {
+      this.index++;
+    }
   }
 }
