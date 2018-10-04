@@ -16,6 +16,7 @@
         <div class="pipe"></div>
         <div class="inner-box">Latest Products</div>
     </div>
+    <app-latest-products *ngIf="route === '/'"></app-latest-products>
 
     <app-top-products *ngIf="route === '/'"></app-top-products>
 
@@ -23,6 +24,19 @@
         <div class="pipe"></div>
         <div class="inner-box">Charts</div>
     </div>
+
+    <div class="chart-container">
+        <app-top-rated-products *ngIf="route === '/'"></app-top-rated-products>
+        <app-best-sellers *ngIf="route === '/'"></app-best-sellers>
+    </div>
+
+
+    <div class="box" *ngIf="route === '/'">
+        <div class="pipe"></div>
+        <div class="inner-box">Info</div>
+    </div>
+
+    <app-info-board *ngIf="route === '/'"></app-info-board>
 </div>
 
 <div class="footer">

@@ -1,0 +1,7 @@
+<div [ngClass]="{'product-card-small': isSmall, 'product-card': !isSmall}">
+  <h3 class="title" *ngIf="!isSmall">Title</h3>
+  <p class="category" *ngIf="!isSmall">category</p>
+  <img [ngClass]="{'image-small': isSmall, 'image': !isSmall}" alt="picture" src="https://demokaliumsites-laborator.netdna-ssl.com/shop/wp-content/uploads/2015/05/yes_088_boskee_cube_3-1340x7851.jpg">
+  <p class="price" *ngIf="!isSmall">$20</p>
+  <img class='icon' src='/assets/icons/shopping-basket.png' *ngIf="!isSmall" />
+</div>

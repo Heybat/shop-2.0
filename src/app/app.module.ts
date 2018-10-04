@@ -14,9 +14,18 @@ import { Test2Component } from "./components/test2/test2.component";
 import { GalleryComponent } from "./components/gallery/gallery.component";
 import { CategoriesComponent } from "./components/categories/categories.component";
 import { LatestProductsComponent } from "./components/latest-products/latest-products.component";
-import { TopProductsComponent } from "./components/top-products/top-products.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { RoutingModule } from "./modules/routing/routing.module";
+import { ProductsComponent } from "./components/products/products.component";
+import { AboutComponent } from "./components/about/about.component";
+import { ShoppingCartComponent } from "./components/shopping-cart/shopping-cart.component";
+import { SearchComponent } from "./components/search/search.component";
+import { ProfileComponent } from "./components/profile/profile.component";
+import { CardComponent } from "./components/card/card.component";
+import { TopRatedProductsComponent } from "./components/top-rated-products/top-rated-products.component";
+import { BestSellersComponent } from "./components/best-sellers/best-sellers.component";
+import { InfoBoardComponent } from './components/info-board/info-board.component';
+import { BorderComponent } from './components/border/border.component';
 
 @NgModule({
   declarations: [
@@ -31,8 +40,17 @@ import { RoutingModule } from "./modules/routing/routing.module";
     GalleryComponent,
     CategoriesComponent,
     LatestProductsComponent,
-    TopProductsComponent,
-    FooterComponent
+    FooterComponent,
+    ProductsComponent,
+    AboutComponent,
+    ShoppingCartComponent,
+    SearchComponent,
+    ProfileComponent,
+    CardComponent,
+    TopRatedProductsComponent,
+    BestSellersComponent,
+    InfoBoardComponent,
+    BorderComponent
   ],
   imports: [
     BrowserModule,

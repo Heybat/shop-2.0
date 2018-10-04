@@ -39,3 +39,9 @@
 .footer {
   margin-bottom: 300px;
 }
+
+.chart-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 100px;
+}
