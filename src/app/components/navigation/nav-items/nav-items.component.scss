@@ -14,6 +14,18 @@
   display: inline-block;
 }
 
+.block {
+  display: block;
+  margin: 20px auto;
+  width: 85px;
+}
+
+.icon {
+  margin: 0px 5px 10px 0px !important;
+  width: 18px;
+  height: 18px;
+}
+
 .link {
   position: relative;
 }
@@ -22,7 +34,7 @@
   content: "";
   position: absolute;
   width: 0;
-  height: 1.4px;
+  height: 2px;
   display: block;
   margin-top: 5px;
   right: 0;
@@ -34,16 +46,4 @@
   width: 100%;
   left: 0;
   background: #333 !important;
-}
-
-.block {
-  display: block;
-  margin: 20px auto;
-  width: 85px;
-}
-
-.icon {
-  margin: 0px 5px 10px 0px !important;
-  width: 18px;
-  height: 18px;
 }

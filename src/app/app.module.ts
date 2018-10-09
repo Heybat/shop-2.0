@@ -24,8 +24,8 @@ import { ProfileComponent } from "./components/profile/profile.component";
 import { CardComponent } from "./components/card/card.component";
 import { TopRatedProductsComponent } from "./components/top-rated-products/top-rated-products.component";
 import { BestSellersComponent } from "./components/best-sellers/best-sellers.component";
-import { InfoBoardComponent } from './components/info-board/info-board.component';
-import { BorderComponent } from './components/border/border.component';
+import { InfoBoardComponent } from "./components/info-board/info-board.component";
+import { BorderComponent } from "./components/border/border.component";
 
 @NgModule({
   declarations: [

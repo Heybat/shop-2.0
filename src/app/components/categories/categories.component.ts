@@ -10,10 +10,11 @@ export class CategoriesComponent implements OnInit {
 
   constructor() {
     this.pictures = [
-      "https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/5.jpg",
-      "https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/8.jpg",
-      "https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/9.jpg",
-      "https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/7.jpg"
+      "https://demokaliumsites-laborator.netdna-ssl.com/shop/wp-content/uploads/2015/05/yes_086_tina_frey_hanging_planter_1-1340x7851.jpg",
+      "https://demokaliumsites-laborator.netdna-ssl.com/shop/wp-content/uploads/2015/05/yes_086_tina_frey_hanging_planter_1-1340x7851.jpg",
+      "https://demokaliumsites-laborator.netdna-ssl.com/shop/wp-content/uploads/2015/05/yes_086_tina_frey_hanging_planter_1-1340x7851.jpg",
+      "https://demokaliumsites-laborator.netdna-ssl.com/shop/wp-content/uploads/2015/05/yes_086_tina_frey_hanging_planter_1-1340x7851.jpg",
+      "https://demokaliumsites-laborator.netdna-ssl.com/shop/wp-content/uploads/2015/05/yes_086_tina_frey_hanging_planter_1-1340x7851.jpg"
     ];
   }
 

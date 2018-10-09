@@ -1,20 +1,40 @@
-.collection-card .stripe.light {
-  background-color: rgba(255, 255, 255, 0.7);
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 20px;
+  justify-content: space-evenly;
 }
 
-.collection-card .stripe.dark {
-  background-color: black;
-  opacity: 0.6;
+.category-card {
+  position: relative;
+  height: 400px;
+  max-height: 400px;
+  width: 250px;
+  max-width: 250px;
+  overflow: hidden;
 }
 
-.collection-card .stripe.dark p {
+.image {
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.stripe {
+  position: absolute;
+  background-color: gray;
+  height: 30px;
+  width: 250px;
+  bottom: 40px;
+  text-align: center;
   color: white;
 }
 
-.collection-card .stripe {
-  position: absolute;
-  bottom: 3rem;
-  width: 100%;
-  text-align: center;
-  // padding: 1.2rem;
+.category-card:hover .stripe {
+  background-color: #333333;
+  color: white;
+}
+
+.category-card:hover .image {
+  transform: scale(1.1);
 }

@@ -1,41 +1,18 @@
 <div class="site-body">
     <app-navbar></app-navbar>
     <router-outlet></router-outlet>
-    <div class="carousel" *ngIf="route === '/'">
-        <app-carousel></app-carousel>
-    </div>
-
-    <div class="box" *ngIf="route === '/'">
-        <div class="pipe"></div>
-        <div class="inner-box">Categories</div>
-    </div>
-
+    <app-carousel *ngIf="route === '/'"></app-carousel>
+    <app-border [text]="'Categories'" *ngIf="route === '/'"></app-border>
     <app-categories *ngIf="route === '/'"></app-categories>
-
-    <div class="box" *ngIf="route === '/'">
-        <div class="pipe"></div>
-        <div class="inner-box">Latest Products</div>
-    </div>
+    <app-border [text]="'Latest Products'" *ngIf="route === '/'"></app-border>
     <app-latest-products *ngIf="route === '/'"></app-latest-products>
-
     <app-top-products *ngIf="route === '/'"></app-top-products>
-
-    <div class="box" *ngIf="route === '/'">
-        <div class="pipe"></div>
-        <div class="inner-box">Charts</div>
+    <app-border [text]="'Charts'" *ngIf="route === '/'"></app-border>
+    <div class="chart-container" *ngIf="route === '/'">
+        <app-top-rated-products></app-top-rated-products>
+        <app-best-sellers></app-best-sellers>
     </div>
-
-    <div class="chart-container">
-        <app-top-rated-products *ngIf="route === '/'"></app-top-rated-products>
-        <app-best-sellers *ngIf="route === '/'"></app-best-sellers>
-    </div>
-
-
-    <div class="box" *ngIf="route === '/'">
-        <div class="pipe"></div>
-        <div class="inner-box">Info</div>
-    </div>
-
+    <app-border [text]="'Info'" *ngIf="route === '/'"></app-border>
     <app-info-board *ngIf="route === '/'"></app-info-board>
 </div>
 

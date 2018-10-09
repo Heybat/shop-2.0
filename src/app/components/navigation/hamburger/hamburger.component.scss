@@ -7,12 +7,6 @@
   height: 40px;
   background: white;
   user-select: none;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-transform: scale(1);
-
 }
 
 .burger-main {
@@ -138,7 +132,7 @@
 }
 
 .path-rotation:before {
-  content: '';
+  content: "";
   display: block;
   width: 30px;
   height: 34px;
@@ -168,7 +162,6 @@
   100% {
     stroke-dashoffset: 0;
   }
-
 }
 
 @keyframes dash-in {
@@ -183,7 +176,6 @@
   100% {
     stroke-dashoffset: 0;
   }
-
 }
 
 @-webkit-keyframes dash-out {
@@ -198,7 +190,6 @@
   100% {
     stroke-dashoffset: 240;
   }
-
 }
 
 @keyframes dash-out {
@@ -213,7 +204,6 @@
   100% {
     stroke-dashoffset: 240;
   }
-
 }
 
 @keyframes close-top-out {
@@ -240,7 +230,6 @@
     top: 1px;
     transform: rotate(-45deg);
   }
-
 }
 
 @keyframes close-bot-out {
@@ -263,7 +252,6 @@
     left: -5px;
     transform: rotate(45deg);
   }
-
 }
 
 @keyframes close-top-in {
@@ -290,7 +278,6 @@
     bot: 1px;
     transform: rotate(0deg);
   }
-
 }
 
 @keyframes close-bot-in {
@@ -313,7 +300,6 @@
     left: 0;
     transform: rotate(0deg);
   }
-
 }
 
 @keyframes burger-fill-in {
@@ -336,7 +322,6 @@
     width: 36px;
     left: 0px;
   }
-
 }
 
 @keyframes burger-fill-out {
@@ -359,7 +344,6 @@
     width: 0;
     left: 36px;
   }
-
 }
 @keyframes circle-out {
   0% {
@@ -373,9 +357,7 @@
   100% {
     transform: rotate(360deg);
   }
-
 }
-
 
 @keyframes circle-in {
   0% {
@@ -389,5 +371,4 @@
   100% {
     transform: rotate(0deg);
   }
-
 }

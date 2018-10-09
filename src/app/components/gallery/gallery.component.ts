@@ -44,6 +44,8 @@ export class GalleryComponent implements OnInit {
   right() {
     if (this.index < this.pictures.length - 1) {
       this.index++;
+    } else {
+      this.index = 0;
     }
   }
 }
