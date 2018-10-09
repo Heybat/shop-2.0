@@ -8,6 +8,10 @@ import { Router, NavigationStart } from "@angular/router";
 })
 export class AppComponent {
   route: string;
+  navLinks = [
+    { path: "login", label: "Login" },
+    { path: "registration", label: "Registration" }
+  ];
 
   constructor(private router: Router) {
     router.events.subscribe(event => {
