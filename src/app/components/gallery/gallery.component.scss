@@ -1,6 +1,7 @@
 .grid-container {
   display: grid !important;
-  grid-template-columns: auto auto auto auto !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  margin: 0px 20px 0px 20px;
 }
 
 .image {

@@ -15,7 +15,14 @@ export class CarouselComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    setInterval(() => this.slideShow(), 10000);
+  }
+
+  slideShow() {
+    this.right();
+  }
+
   left() {
     if (this.counter > 0) {
       this.counter--;

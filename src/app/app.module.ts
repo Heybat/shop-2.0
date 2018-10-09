@@ -10,7 +10,6 @@ import { SidebarComponent } from "./components/navigation//sidebar/sidebar.compo
 import { TestComponent } from "./components/test/test.component";
 import { NavItemsComponent } from "./components/navigation//nav-items/nav-items.component";
 import { CarouselComponent } from "./components/carousel/carousel.component";
-import { Test2Component } from "./components/test2/test2.component";
 import { GalleryComponent } from "./components/gallery/gallery.component";
 import { CategoriesComponent } from "./components/categories/categories.component";
 import { LatestProductsComponent } from "./components/latest-products/latest-products.component";
@@ -26,6 +25,9 @@ import { TopRatedProductsComponent } from "./components/top-rated-products/top-r
 import { BestSellersComponent } from "./components/best-sellers/best-sellers.component";
 import { InfoBoardComponent } from "./components/info-board/info-board.component";
 import { BorderComponent } from "./components/border/border.component";
+import { SignInComponent } from "./components/sign-in/sign-in.component";
+import { SignUpComponent } from "./components/sign-up/sign-up.component";
+import { MaterialModule } from "./modules/material/material.module";
 
 @NgModule({
   declarations: [
@@ -36,7 +38,6 @@ import { BorderComponent } from "./components/border/border.component";
     TestComponent,
     NavItemsComponent,
     CarouselComponent,
-    Test2Component,
     GalleryComponent,
     CategoriesComponent,
     LatestProductsComponent,
@@ -50,14 +51,17 @@ import { BorderComponent } from "./components/border/border.component";
     TopRatedProductsComponent,
     BestSellersComponent,
     InfoBoardComponent,
-    BorderComponent
+    BorderComponent,
+    SignInComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MDBBootstrapModule.forRoot(),
     FormsModule,
-    RoutingModule
+    RoutingModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -7,6 +7,9 @@ import { ProfileComponent } from "../../components/profile/profile.component";
 import { SearchComponent } from "../../components/search/search.component";
 import { ShoppingCartComponent } from "../../components/shopping-cart/shopping-cart.component";
 import { AboutComponent } from "../../components/about/about.component";
+import { SignInComponent } from "../../components/sign-in/sign-in.component";
+import { TestComponent } from "../../components/test/test.component";
+import { SignUpComponent } from "../../components/sign-up/sign-up.component";
 
 const routes: Routes = [
   { path: "gallery", component: GalleryComponent },
@@ -14,7 +17,11 @@ const routes: Routes = [
   { path: "about", component: AboutComponent },
   { path: "cart", component: ShoppingCartComponent },
   { path: "profile", component: ProfileComponent },
-  { path: "search", component: SearchComponent }
+  { path: "search", component: SearchComponent },
+  { path: "login", component: SignInComponent },
+  { path: "test", component: TestComponent },
+  { path: "login", component: SignInComponent },
+  { path: "registration", component: SignUpComponent }
 ];
 
 @NgModule({

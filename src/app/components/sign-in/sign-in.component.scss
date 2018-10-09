@@ -1,0 +1,25 @@
+.my-container {
+  height: 700px;
+  width: 500px;
+  margin: 60px auto 0 auto;
+}
+
+h4 {
+  text-align: center;
+}
+
+.social-icon {
+  height: 40px;
+  width: 40px;
+  margin: 0px 10px;
+}
+
+.socials {
+  width: max-content;
+  margin: 30px auto 3px auto;
+}
+
+.my-btn {
+  width: 120px;
+  margin: 20px calc((100% - 120px) / 2) !important;
+}
