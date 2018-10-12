@@ -1,0 +1,40 @@
+th {
+  height: 100px;
+}
+
+.product-col {
+  width: 50%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 20px;
+  min-height: 100vh;
+}
+
+.grid-item1 {
+  grid-column: 1 / 4;
+}
+.grid-item4 {
+  justify-self: end;
+}
+.grid-item7 {
+  align-self: auto;
+}
+.grid-item10 {
+  justify-self: end;
+}
+
+.checkout {
+  background-color: #eee;
+  width: 100%;
+  height: 300px;
+}
+
+// .update-cart-btn {
+// }
+
+// .checkout-cart-btn {
+// }

@@ -70,6 +70,10 @@
   opacity: 1;
 }
 
+.container-small:hover > .price-small {
+  animation: rotateIn 1s;
+}
+
 .title {
   text-align: center;
 }
